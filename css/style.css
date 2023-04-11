@@ -3,13 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Fredoka', sans-serif;
-}
-
-.container{
-    width: 75%;
-    margin: auto;
 }
 
 /* TITOLO layout team */
@@ -17,19 +13,27 @@ h1{
     font-size: 40px;
     color: rgb(228, 32, 123);
     text-align: center;
-    padding: 35px;
+     padding: 35px;
 }
-/* Fine Titolo layout team */
 
-/* CARD */
-.row{
-    width: 100%;
-    margin-top: 30px;
+/* FINE TITOLO layout team */
+
+/* INIZIO MAIN */
+.container{
+    width: 75%;
+    margin: auto;
 }
+
 .subtitle{
     font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
+}
+
+/* CARD TEAM */
+.row{
+    width: 100%;
+    margin-top: 30px;
 }
 .row::after{
     content: "";
@@ -48,9 +52,9 @@ h1{
 }
 .card{
     height: 100px;
-    border: 1px solid;
-    background-color: rgb(184, 191, 209);
-    
+    /* border: 1px solid; */
+    background-color: rgb(14, 19, 31);
+
 }
 
 /* CONTENUTO CARD */
@@ -67,16 +71,19 @@ h1{
     clear: both;
 }
 
-/* Testo CARD */
+/* TESTO CARD */
 .text-professionist{
     float: left;
-    line-height: 25px;
+    line-height: 29px;
     width: calc(100%-98px);
+    height: 100%;
 }
 
 .text-professionist div {
     margin-left: 10px;
     vertical-align: middle;
+    align-items: center;
+    justify-content: center;
 }
 
 .text-professionist div:first-child{
