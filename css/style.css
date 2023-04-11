@@ -33,12 +33,14 @@ h1{
 }
 
 .col{
-    width: calc(100% / 3 - 30px);   
-
+    width: calc((100% - 60px) / 3);   
     float: left;
-    margin-right: 30px;
 }
 
+.center{
+    margin-left: 30px;
+    margin-right: 30px;
+}
 .card{
     height: 100px;
     border: 1px solid;
