@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family: 'Fredoka', sans-serif;
+}
 
 .container{
     width: 75%;
@@ -51,7 +53,7 @@ h1{
 
 /* CONTENUTO CARD */
 .card img{
-    
+    width: 98px;
     height: 100%;
     float: left;
     vertical-align: middle;
@@ -66,4 +68,8 @@ h1{
 .text-professionist{
     float: left;
     line-height: 30px;
+    width: calc(100%-98px);
+}
+.text-professionist div {
+    vertical-align: middle;
 }
