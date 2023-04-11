@@ -33,7 +33,8 @@ h1{
 }
 
 .col{
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 30px);   
+
     float: left;
     margin-right: 30px;
 }
