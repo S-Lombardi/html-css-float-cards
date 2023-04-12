@@ -50,8 +50,6 @@ h1{
     margin-right: 30px;
 }
 .card{
-    /* height: 100px; */
-    /* border: 1px solid; */
     background-color: rgb(14, 19, 31);
     box-shadow: 0px 0px 10px black;
 }
@@ -73,7 +71,6 @@ h1{
 .text-professionist{
     float: left;
     line-height: 26px;
-    /* height: 100%; */
     vertical-align: middle;
 }
 
